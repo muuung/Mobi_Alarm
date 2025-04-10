@@ -10,7 +10,6 @@ on:
     - cron:  "50 08 * * *"
     - cron:  "50 11 * * *"
     - cron:  "50 14 * * *"
-    - cron:  "22 05 * * *"
 
 jobs:
   message:
