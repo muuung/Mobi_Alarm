@@ -4,10 +4,9 @@
 name: bot2
 
 on:
-  schedule: # PM 7:50 / PM 9:50
-    - cron:  "50 10 * * *"
-    - cron:  "50 12 * * *"
-    - cron:  "27 07 * * *"
+  schedule: # PM 7:45 / PM 9:45
+    - cron:  "45 10 * * *"
+    - cron:  "45 12 * * *"
 
 jobs:
   message:
