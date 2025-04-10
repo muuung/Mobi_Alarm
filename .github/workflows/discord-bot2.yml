@@ -7,6 +7,7 @@ on:
   schedule: # PM 7:50 / PM 9:50
     - cron:  "50 10 * * *"
     - cron:  "50 12 * * *"
+    - cron:  "27 07 * * *"
 
 jobs:
   message:
