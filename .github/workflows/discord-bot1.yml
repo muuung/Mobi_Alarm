@@ -4,13 +4,12 @@
 name: bot1
 
 on:
-  schedule: # AM 11:50 / PM 2:50 / PM 5:50 / PM 8:50 / PM 11:50
-    - cron:  "50 02 * * *"
-    - cron:  "50 05 * * *"
-    - cron:  "50 08 * * *"
-    - cron:  "50 11 * * *"
-    - cron:  "50 14 * * *"
-    - cron:  "27 07 * * *"
+  schedule: # AM 11:45 / PM 2:45 / PM 5:45 / PM 8:45 / PM 11:45
+    - cron:  "45 02 * * *"
+    - cron:  "45 05 * * *"
+    - cron:  "45 08 * * *"
+    - cron:  "45 11 * * *"
+    - cron:  "45 14 * * *"
 
 jobs:
   message:
